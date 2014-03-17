@@ -5,7 +5,6 @@
 <author href="http://solidgroup.no" email="kristoffer@solidgroup.no">Kristoffer Strand</author>
 <gap:platform name="android" />
 <gap:platform name="ios" />
-<icon src="icon.png" />
 <preference name="orientation" value="default" />
 <preference name="target-device" value="universal" />
 <preference name="phonegap-version" value="3.1.0" />
