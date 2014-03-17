@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="Portal" versionCode="3.0" version="3.0">
+<name>Portal</name>
+<description>Portal</description>
+<author href="http://solidgroup.no" email="kristoffer@solidgroup.no">Kristoffer Strand</author>
+<gap:platform name="android" />
+<gap:platform name="ios" />
+<icon src="icon.png" />
+<preference name="orientation" value="default" />
+<preference name="target-device" value="universal" />
+<preference name="phonegap-version" value="3.1.0" />
+<preference name="fullscreen" value="false" />
+<preference name="ios-statusbarstyle" value="default" />
+<preference name="android-installLocation" value="internalOnly" />
+<feature name="http://api.phonegap.com/1.0/file"/>
+<feature name="http://api.phonegap.com/1.0/network"/>
+<feature name="http://api.phonegap.com/1.0/device"/>
+<gap:plugin name="org.apache.cordova.splashscreen" />
+<access origin="*" subdomains="true"/>
+</widget>
